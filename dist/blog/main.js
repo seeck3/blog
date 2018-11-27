@@ -613,7 +613,7 @@ var PhotoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "li {\r\n  margin: 30px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9wb3Rmb2xpby9wb3Rmb2xpby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtDQUNkIiwiZmlsZSI6InNyYy9hcHAvYmxvZy9wb3Rmb2xpby9wb3Rmb2xpby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibGkge1xyXG4gIG1hcmdpbjogMzBweDtcclxufVxyXG4iXX0= */"
+module.exports = "li {\r\n  margin: 30px;\r\n}\r\n\r\nspan {\r\n  font-weight: bolder;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9wb3Rmb2xpby9wb3Rmb2xpby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtDQUNkOztBQUVEO0VBQ0Usb0JBQW9CO0NBQ3JCIiwiZmlsZSI6InNyYy9hcHAvYmxvZy9wb3Rmb2xpby9wb3Rmb2xpby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibGkge1xyXG4gIG1hcmdpbjogMzBweDtcclxufVxyXG5cclxuc3BhbiB7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -624,7 +624,7 @@ module.exports = "li {\r\n  margin: 30px;\r\n}\r\n\r\n/*# sourceMappingURL=data:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n\n  <ul>\n    <li>Marco's Buy&Sell : <a href=\"http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/\" target=\"_blank\">http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/</a></li>\n    <li>Marco's Simple Movie Review : <a href=\"https://lit-temple-82702.herokuapp.com/movies\" targer=\"_blank\">https://lit-temple-82702.herokuapp.com/movies</a></li>\n\n  </ul>\n</div>\n"
+module.exports = "<div>\n\n  <ul>\n    <li><span>Marco's Buy&Sell : </span><a href=\"http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/\" target=\"_blank\">http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/</a></li>\n    <li><span>Marco's Simple Movie Review : </span><a href=\"https://lit-temple-82702.herokuapp.com/movies\" targer=\"_blank\">https://lit-temple-82702.herokuapp.com/movies</a></li>\n\n  </ul>\n</div>\n"
 
 /***/ }),
 
@@ -750,7 +750,7 @@ module.exports = "div {\r\n  display: inline-block;\r\n  margin-left: 30px;\r\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <div><button class='btn btn-link' [routerLink]='[\"blog\"]'>Blog</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"potfolio\"]'>Potfolio</button></div>\n  |\n  <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"myself\"]'>Introduce Myself</button></div> | <div><button\n      class='btn btn-link' [routerLink]='[\"/blog\", \"contact\"]'>Contact</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"resume\"]'>Download Resume</button></div>\n</div>\n"
+module.exports = "<div>\n  <div><button class='btn btn-link' [routerLink]='[\"blog\"]'>Blog</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"potfolio\"]'>Potfolio</button></div>\n  |\n  <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"myself\"]'>About Me</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"contact\"]'>Contact</button></div> | <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"resume\"]'>Download\n      Resume</button></div>\n</div>\n"
 
 /***/ }),
 
