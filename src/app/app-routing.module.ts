@@ -28,10 +28,10 @@ const routes: Routes = [
         path: 'contact',
         component: fromBlogs.ContactComponent,
       },
-      // {
-      //   path: ':pet_id',
-      //   component: fromBlogs.DetailComponent,
-      // },
+      {
+        path: 'resume',
+        component: fromBlogs.ResumeComponent,
+      },
     ],
   },
 ];

@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "foreman": "nf",
-    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
+    "postinstall": "ng build --aot -prod"
   },
   "engines": {
     "node": "8.11.4",
