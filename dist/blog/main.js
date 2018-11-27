@@ -624,7 +624,7 @@ module.exports = "li {\r\n  margin: 30px;\r\n}\r\n\r\nspan {\r\n  font-weight: b
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n\n  <ul>\n    <li><span>Marco's Buy&Sell : </span><a href=\"http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/\" target=\"_blank\">http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/</a></li>\n    <li><span>Marco's Simple Movie Review : </span><a href=\"https://lit-temple-82702.herokuapp.com/movies\" targer=\"_blank\">https://lit-temple-82702.herokuapp.com/movies</a></li>\n\n  </ul>\n</div>\n"
+module.exports = "<div>\n\n  <ul>\n    <li><span>Marco's Buy&Sell : </span><a href=\"http://ec2-3-16-91-225.us-east-2.compute.amazonaws.com/\" target=\"_blank\">Let's\n        go to Marco's Buy&Sell</a></li>\n    <li><span>Marco's Simple Movie Review : </span><a href=\"https://lit-temple-82702.herokuapp.com/movies\" targer=\"_blank\">Let's\n        go to Marco's Movie Review</a></li>\n\n  </ul>\n</div>\n"
 
 /***/ }),
 
