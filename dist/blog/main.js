@@ -487,7 +487,7 @@ var components = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\np {\r\n  width: 40%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkOztBQUVEO0VBQ0UsV0FBVztDQUNaIiwiZmlsZSI6InNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxuICBtYXJnaW46IDIwcHg7XHJcbn1cclxuXHJcbnAge1xyXG4gIHdpZHRoOiA0MCU7XHJcbn1cclxuIl19 */"
+module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\np {\r\n  margin: 20px;\r\n  width: 40%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkOztBQUVEO0VBQ0UsYUFBYTtFQUNiLFdBQVc7Q0FDWiIsImZpbGUiOiJzcmMvYXBwL2Jsb2cvbXlzZWxmL215c2VsZi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkZXI7XHJcbiAgbWFyZ2luOiAyMHB4O1xyXG59XHJcblxyXG5wIHtcclxuICBtYXJnaW46IDIwcHg7XHJcbiAgd2lkdGg6IDQwJTtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
