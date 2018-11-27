@@ -1,0 +1,10 @@
+div {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.btn {
+  font-weight: bolder;
+  color: black;
+}
