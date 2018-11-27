@@ -3,4 +3,6 @@ h1 {
   margin: 20px;
 }
 
-p {}
+p {
+  width: 40%;
+}

@@ -70,6 +70,10 @@ var routes = [
                 path: 'contact',
                 component: _blog__WEBPACK_IMPORTED_MODULE_2__["ContactComponent"],
             },
+            {
+                path: 'resume',
+                component: _blog__WEBPACK_IMPORTED_MODULE_2__["ResumeComponent"],
+            },
         ],
     },
 ];
@@ -107,7 +111,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-nav></app-nav>\n<router-outlet></router-outlet>\n"
+module.exports = "<app-nav></app-nav>\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -164,12 +168,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./blog */ "./src/app/blog/index.ts");
 /* harmony import */ var _nav_nav_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./nav/nav.component */ "./src/app/nav/nav.component.ts");
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm5/ng-bootstrap.js");
+/* harmony import */ var _blog_resume_resume_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./blog/resume/resume.component */ "./src/app/blog/resume/resume.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -186,6 +192,7 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
                 _blog__WEBPACK_IMPORTED_MODULE_4__["components"],
                 _nav_nav_component__WEBPACK_IMPORTED_MODULE_5__["NavComponent"],
+                _blog_resume_resume_component__WEBPACK_IMPORTED_MODULE_7__["ResumeComponent"],
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -359,7 +366,7 @@ var BlogsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".title {\r\n  font-weight: bolder;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG9CQUFvQjtDQUNyQiIsImZpbGUiOiJzcmMvYXBwL2Jsb2cvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGl0bGUge1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkZXI7XHJcbn1cclxuIl19 */"
+module.exports = ".title {\r\n  font-weight: bolder;\r\n}\r\n\r\ndiv {\r\n  margin: 10px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG9CQUFvQjtDQUNyQjs7QUFFRDtFQUNFLGFBQWE7Q0FDZCIsImZpbGUiOiJzcmMvYXBwL2Jsb2cvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGl0bGUge1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkZXI7XHJcbn1cclxuXHJcbmRpdiB7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -419,7 +426,7 @@ var ContactComponent = /** @class */ (function () {
 /*!*******************************!*\
   !*** ./src/app/blog/index.ts ***!
   \*******************************/
-/*! exports provided: components, BlogComponent, PotfolioComponent, PhotoComponent, MyselfComponent, ContactComponent, BlogsComponent */
+/*! exports provided: components, ResumeComponent, BlogComponent, PotfolioComponent, PhotoComponent, MyselfComponent, ContactComponent, BlogsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -431,6 +438,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _myself_myself_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./myself/myself.component */ "./src/app/blog/myself/myself.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/blog/contact/contact.component.ts");
 /* harmony import */ var _blogs_blogs_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./blogs/blogs.component */ "./src/app/blog/blogs/blogs.component.ts");
+/* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/blog/resume/resume.component.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogComponent", function() { return _blog_component__WEBPACK_IMPORTED_MODULE_0__["BlogComponent"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PotfolioComponent", function() { return _potfolio_potfolio_component__WEBPACK_IMPORTED_MODULE_1__["PotfolioComponent"]; });
@@ -442,6 +450,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogsComponent", function() { return _blogs_blogs_component__WEBPACK_IMPORTED_MODULE_5__["BlogsComponent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return _resume_resume_component__WEBPACK_IMPORTED_MODULE_6__["ResumeComponent"]; });
+
 
 
 
@@ -456,7 +467,9 @@ var components = [
     _myself_myself_component__WEBPACK_IMPORTED_MODULE_3__["MyselfComponent"],
     _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"],
     _blogs_blogs_component__WEBPACK_IMPORTED_MODULE_5__["BlogsComponent"],
+    _resume_resume_component__WEBPACK_IMPORTED_MODULE_6__["ResumeComponent"]
 ];
+
 
 
 
@@ -474,7 +487,7 @@ var components = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\np {}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkOztBQUVELElBQUkiLCJmaWxlIjoic3JjL2FwcC9ibG9nL215c2VsZi9teXNlbGYuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcclxuICBmb250LXdlaWdodDogYm9sZGVyO1xyXG4gIG1hcmdpbjogMjBweDtcclxufVxyXG5cclxucCB7fVxyXG4iXX0= */"
+module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\np {\r\n  width: 40%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkOztBQUVEO0VBQ0UsV0FBVztDQUNaIiwiZmlsZSI6InNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxuICBtYXJnaW46IDIwcHg7XHJcbn1cclxuXHJcbnAge1xyXG4gIHdpZHRoOiA0MCU7XHJcbn1cclxuIl19 */"
 
 /***/ }),
 
@@ -656,6 +669,69 @@ var PotfolioComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/blog/resume/resume.component.css":
+/*!**************************************************!*\
+  !*** ./src/app/blog/resume/resume.component.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "div {\r\n  margin: 10px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9yZXN1bWUvcmVzdW1lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0NBQ2QiLCJmaWxlIjoic3JjL2FwcC9ibG9nL3Jlc3VtZS9yZXN1bWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG59XHJcbiJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/blog/resume/resume.component.html":
+/*!***************************************************!*\
+  !*** ./src/app/blog/resume/resume.component.html ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\n  <div class=\"col\">\n    <div ngbDropdown class=\"d-inline-block\">\n      <button class=\"btn btn-outline-primary\" id=\"dropdownBasic1\" ngbDropdownToggle>Select type of Files</button>\n      <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n        <a href=\"../../../assets/Marco-Resume-03 .docx\"><button class=\"dropdown-item\">Marco Resume.doc</button></a>\n        <a href=\"../../../assets/Marco-Resume-03 .pdf\"><button class=\"dropdown-item\">Marco Resume.pdf</button></a>\n\n      </div>\n    </div>\n  </div>\n"
+
+/***/ }),
+
+/***/ "./src/app/blog/resume/resume.component.ts":
+/*!*************************************************!*\
+  !*** ./src/app/blog/resume/resume.component.ts ***!
+  \*************************************************/
+/*! exports provided: ResumeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return ResumeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ResumeComponent = /** @class */ (function () {
+    function ResumeComponent() {
+    }
+    ResumeComponent.prototype.ngOnInit = function () {
+    };
+    ResumeComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-resume',
+            template: __webpack_require__(/*! ./resume.component.html */ "./src/app/blog/resume/resume.component.html"),
+            styles: [__webpack_require__(/*! ./resume.component.css */ "./src/app/blog/resume/resume.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ResumeComponent);
+    return ResumeComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/nav/nav.component.css":
 /*!***************************************!*\
   !*** ./src/app/nav/nav.component.css ***!
@@ -674,7 +750,7 @@ module.exports = "div {\r\n  display: inline-block;\r\n  margin-left: 30px;\r\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <div><button class='btn btn-link' [routerLink]='[\"blog\"]'>Blog</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"potfolio\"]'>Potfolio</button></div>\n  |\n  <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"myself\"]'>Introduce Myself</button></div> | <div><button\n      class='btn btn-link' [routerLink]='[\"/blog\", \"contact\"]'>Contact</button></div> | <div><a href=\"../../assets/Marco-Resume-03 .docx\"\n      download=\"marco-seo-resume\" class='btn btn-link'>Download Resume</a></div>\n</div>\n"
+module.exports = "<div>\n  <div><button class='btn btn-link' [routerLink]='[\"blog\"]'>Blog</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"potfolio\"]'>Potfolio</button></div>\n  |\n  <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"myself\"]'>Introduce Myself</button></div> | <div><button\n      class='btn btn-link' [routerLink]='[\"/blog\", \"contact\"]'>Contact</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"resume\"]'>Download Resume</button></div>\n</div>\n"
 
 /***/ }),
 
