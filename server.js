@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const path = require('path');
 const http = require('http');
 const logger = require('morgan');
-
+const socketIO = require('socket.io');
 
 const app = express();
 const port = process.env.PORT || 8000;
@@ -25,6 +25,20 @@ const sessionConfig = {
 require('./server/config/database');
 
 
+const server = http.createServer(app);
+const io = socketIO(server);
+
+io.on('connection', (socket) => {
+  numberOfOnlineUsers++;
+  io.emit('numberOfOnlineUsers', numberOfOnlineUsers);
+  console.log('New user connected');
+
+  socket.on('disconnect', () => {
+    numberOfOnlineUsers--;
+    io.emit('numberOfOnlineUsers', numberOfOnlineUsers);
+    console.log('User disconnected');
+  });
+});
 
 app.use(bodyParser.urlencoded({
   extended: true
