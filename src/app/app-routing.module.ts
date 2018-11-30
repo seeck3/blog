@@ -6,7 +6,7 @@ import * as fromBlogs from './blog';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'blog',
+    redirectTo: 'blog/myself',
     pathMatch: 'full',
   },
   {

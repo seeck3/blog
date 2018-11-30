@@ -48,7 +48,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var routes = [
     {
         path: '',
-        redirectTo: 'blog',
+        redirectTo: 'blog/myself',
         pathMatch: 'full',
     },
     {
