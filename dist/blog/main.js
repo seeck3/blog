@@ -56,15 +56,19 @@ var routes = [
         children: [
             {
                 path: '',
+                component: _blog__WEBPACK_IMPORTED_MODULE_2__["MyselfComponent"],
+            },
+            {
+                path: 'myself',
+                component: _blog__WEBPACK_IMPORTED_MODULE_2__["MyselfComponent"],
+            },
+            {
+                path: 'blog',
                 component: _blog__WEBPACK_IMPORTED_MODULE_2__["BlogComponent"],
             },
             {
                 path: 'potfolio',
                 component: _blog__WEBPACK_IMPORTED_MODULE_2__["PotfolioComponent"],
-            },
-            {
-                path: 'myself',
-                component: _blog__WEBPACK_IMPORTED_MODULE_2__["MyselfComponent"],
             },
             {
                 path: 'contact',
@@ -487,7 +491,7 @@ var components = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\np {\r\n  margin: 20px;\r\n  width: 40%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkOztBQUVEO0VBQ0UsYUFBYTtFQUNiLFdBQVc7Q0FDWiIsImZpbGUiOiJzcmMvYXBwL2Jsb2cvbXlzZWxmL215c2VsZi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkZXI7XHJcbiAgbWFyZ2luOiAyMHB4O1xyXG59XHJcblxyXG5wIHtcclxuICBtYXJnaW46IDIwcHg7XHJcbiAgd2lkdGg6IDQwJTtcclxufVxyXG4iXX0= */"
+module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\np {\r\n  margin: 20px;\r\n  width: 40%;\r\n  color: black;\r\n  font-weight: bold;\r\n  background: lightgray;\r\n\r\n}\r\n\r\n/* .wrapper {\r\n\r\n  background: url('../../../assets/background/background01.jpg') no-repeat center center fixed;\r\n  -webkit-background-size: cover;\r\n  -moz-background-size: cover;\r\n  -o-background-size: cover;\r\n  background-size: cover;\r\n  width: 100%;\r\n  height: 100%;\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkOztBQUVEO0VBQ0UsYUFBYTtFQUNiLFdBQVc7RUFDWCxhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLHNCQUFzQjs7Q0FFdkI7O0FBRUQ7Ozs7Ozs7OztJQVNJIiwiZmlsZSI6InNyYy9hcHAvYmxvZy9teXNlbGYvbXlzZWxmLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxuICBtYXJnaW46IDIwcHg7XHJcbn1cclxuXHJcbnAge1xyXG4gIG1hcmdpbjogMjBweDtcclxuICB3aWR0aDogNDAlO1xyXG4gIGNvbG9yOiBibGFjaztcclxuICBmb250LXdlaWdodDogYm9sZDtcclxuICBiYWNrZ3JvdW5kOiBsaWdodGdyYXk7XHJcblxyXG59XHJcblxyXG4vKiAud3JhcHBlciB7XHJcblxyXG4gIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vYXNzZXRzL2JhY2tncm91bmQvYmFja2dyb3VuZDAxLmpwZycpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyIGZpeGVkO1xyXG4gIC13ZWJraXQtYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAtbW96LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgLW8tYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxufSAqL1xyXG4iXX0= */"
 
 /***/ }),
 
@@ -498,7 +502,7 @@ module.exports = "h1 {\r\n  font-weight: bolder;\r\n  margin: 20px;\r\n}\r\n\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n\n  <h1>Who is Marco DongChan Seo</h1>\n\n  <p>\n    I am a determined developer with a particular passion solving everyday problems in effective ways. Most recently I\n    completed a full stack web development program at Coding Dojo where I specialized in Python and MEAN. I am\n    dedicated\n    to always learning and looking for an opportunity where I can make a meaningful contribution to a team and a\n    community at large.\n  </p>\n</div>\n"
+module.exports = "<div class='wrapper'>\n\n  <h1>Who is Marco DongChan Seo</h1>\n\n  <p>\n    I am a determined developer with a particular passion solving everyday problems in effective ways. Most recently I\n    completed a full stack web development program at Coding Dojo where I specialized in Python and MEAN. I am\n    dedicated\n    to always learning and looking for an opportunity where I can make a meaningful contribution to a team and a\n    community at large.\n  </p>\n</div>\n"
 
 /***/ }),
 
@@ -676,7 +680,7 @@ var PotfolioComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\r\n  margin: 10px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9yZXN1bWUvcmVzdW1lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0NBQ2QiLCJmaWxlIjoic3JjL2FwcC9ibG9nL3Jlc3VtZS9yZXN1bWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG59XHJcbiJdfQ== */"
+module.exports = "div {\r\n  margin: 10px;\r\n}\r\n\r\n.btn {\r\n  font-weight: bolder;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9yZXN1bWUvcmVzdW1lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0NBQ2Q7O0FBRUQ7RUFDRSxvQkFBb0I7Q0FDckIiLCJmaWxlIjoic3JjL2FwcC9ibG9nL3Jlc3VtZS9yZXN1bWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG59XHJcblxyXG4uYnRuIHtcclxuICBmb250LXdlaWdodDogYm9sZGVyO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -739,7 +743,7 @@ var ResumeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\r\n  display: inline-block;\r\n  margin-left: 30px;\r\n  margin-right: 30px;\r\n}\r\n\r\n.btn {\r\n  font-weight: bolder;\r\n  color: black;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usc0JBQXNCO0VBQ3RCLGtCQUFrQjtFQUNsQixtQkFBbUI7Q0FDcEI7O0FBRUQ7RUFDRSxvQkFBb0I7RUFDcEIsYUFBYTtDQUNkIiwiZmlsZSI6InNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2IHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IDMwcHg7XHJcbiAgbWFyZ2luLXJpZ2h0OiAzMHB4O1xyXG59XHJcblxyXG4uYnRuIHtcclxuICBmb250LXdlaWdodDogYm9sZGVyO1xyXG4gIGNvbG9yOiBibGFjaztcclxufVxyXG4iXX0= */"
+module.exports = "div {\r\n  display: inline-block;\r\n  margin-left: 30px;\r\n  margin-right: 30px;\r\n  margin-top: 10px;\r\n}\r\n\r\n.btn {\r\n\r\n  font-weight: bolder;\r\n  color: black;\r\n  background: lightblue;\r\n}\r\n\r\n/* .roll {\r\n  perspective: 500px;\r\n  -webkit-perspective: 500px;\r\n  -moz-perspective: 500px;\r\n}\r\n\r\n.roll div {\r\n  position: absolute;\r\n  text-align: center;\r\n  width: 100%;\r\n  height: 50px;\r\n  padding: 10px;\r\n  border: #000000 solid 1px;\r\n  pointer-events: none;\r\n  box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  -moz-box-sizing: border-box;\r\n}\r\n\r\n.roll div:nth-child(1) {\r\n  color: #000000;\r\n  background-color: #000000;\r\n  transform: rotateX(90deg);\r\n  -webkit-transform: rotateX(90deg);\r\n  -moz-transform: rotateX(90deg);\r\n  transition: all 0.2s ease;\r\n  -webkit-transition: all 0.2s ease;\r\n  -moz-transition: all 0.2s ease;\r\n  transform-origin: 50% 50% -25px;\r\n  -webkit-transform-origin: 50% 50% -25px;\r\n  -moz-transform-origin: 50% 50% -25px;\r\n}\r\n\r\n.roll div:nth-child(2) {\r\n  color: #000000;\r\n  background-color: #ffffff;\r\n  transform: rotateX(0deg);\r\n  -webkit-transform: rotateX(0deg);\r\n  -moz-transform: rotateX(0deg);\r\n  transition: all 0.2s ease;\r\n  -webkit-transition: all 0.2s ease;\r\n  -moz-transition: all 0.2s ease;\r\n  transform-origin: 50% 50% -25px;\r\n  -webkit-transform-origin: 50% 50% -25px;\r\n  -moz-transform-origin: 50% 50% -25px;\r\n}\r\n\r\n.roll:hover div:nth-child(1) {\r\n  color: #ffffff;\r\n  transition: all 0.2s ease;\r\n  -webkit-transition: all 0.2s ease;\r\n  -moz-transition: all 0.2s ease;\r\n  transform: rotateX(0deg);\r\n  -webkit-transform: rotateX(0deg);\r\n  -moz-transform: rotateX(0deg);\r\n}\r\n\r\n.roll:hover div:nth-child(2) {\r\n  background-color: #000000;\r\n  transition: all 0.2s ease;\r\n  -webkit-transition: all 0.2s ease;\r\n  -moz-transition: all 0.2s ease;\r\n  transform: rotateX(-90deg);\r\n  -webkit-transform: rotateX(-90deg);\r\n  -moz-transform: rotateX(-90deg);\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usc0JBQXNCO0VBQ3RCLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsaUJBQWlCO0NBQ2xCOztBQUVEOztFQUVFLG9CQUFvQjtFQUNwQixhQUFhO0VBQ2Isc0JBQXNCO0NBQ3ZCOztBQUVEOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWlFSSIsImZpbGUiOiJzcmMvYXBwL25hdi9uYXYuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIG1hcmdpbi1sZWZ0OiAzMHB4O1xyXG4gIG1hcmdpbi1yaWdodDogMzBweDtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG59XHJcblxyXG4uYnRuIHtcclxuXHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxuICBjb2xvcjogYmxhY2s7XHJcbiAgYmFja2dyb3VuZDogbGlnaHRibHVlO1xyXG59XHJcblxyXG4vKiAucm9sbCB7XHJcbiAgcGVyc3BlY3RpdmU6IDUwMHB4O1xyXG4gIC13ZWJraXQtcGVyc3BlY3RpdmU6IDUwMHB4O1xyXG4gIC1tb3otcGVyc3BlY3RpdmU6IDUwMHB4O1xyXG59XHJcblxyXG4ucm9sbCBkaXYge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA1MHB4O1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgYm9yZGVyOiAjMDAwMDAwIHNvbGlkIDFweDtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAtbW96LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuXHJcbi5yb2xsIGRpdjpudGgtY2hpbGQoMSkge1xyXG4gIGNvbG9yOiAjMDAwMDAwO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7XHJcbiAgdHJhbnNmb3JtOiByb3RhdGVYKDkwZGVnKTtcclxuICAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlWCg5MGRlZyk7XHJcbiAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZVgoOTBkZWcpO1xyXG4gIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xyXG4gIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiA1MCUgNTAlIC0yNXB4O1xyXG4gIC13ZWJraXQtdHJhbnNmb3JtLW9yaWdpbjogNTAlIDUwJSAtMjVweDtcclxuICAtbW96LXRyYW5zZm9ybS1vcmlnaW46IDUwJSA1MCUgLTI1cHg7XHJcbn1cclxuXHJcbi5yb2xsIGRpdjpudGgtY2hpbGQoMikge1xyXG4gIGNvbG9yOiAjMDAwMDAwO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XHJcbiAgdHJhbnNmb3JtOiByb3RhdGVYKDBkZWcpO1xyXG4gIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGVYKDBkZWcpO1xyXG4gIC1tb3otdHJhbnNmb3JtOiByb3RhdGVYKDBkZWcpO1xyXG4gIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xyXG4gIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiA1MCUgNTAlIC0yNXB4O1xyXG4gIC13ZWJraXQtdHJhbnNmb3JtLW9yaWdpbjogNTAlIDUwJSAtMjVweDtcclxuICAtbW96LXRyYW5zZm9ybS1vcmlnaW46IDUwJSA1MCUgLTI1cHg7XHJcbn1cclxuXHJcbi5yb2xsOmhvdmVyIGRpdjpudGgtY2hpbGQoMSkge1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xyXG4gIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcclxuICB0cmFuc2Zvcm06IHJvdGF0ZVgoMGRlZyk7XHJcbiAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZVgoMGRlZyk7XHJcbiAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZVgoMGRlZyk7XHJcbn1cclxuXHJcbi5yb2xsOmhvdmVyIGRpdjpudGgtY2hpbGQoMikge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcclxuICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XHJcbiAgLW1vei10cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xyXG4gIHRyYW5zZm9ybTogcm90YXRlWCgtOTBkZWcpO1xyXG4gIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGVYKC05MGRlZyk7XHJcbiAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZVgoLTkwZGVnKTtcclxufSAqL1xyXG4iXX0= */"
 
 /***/ }),
 
@@ -750,7 +754,7 @@ module.exports = "div {\r\n  display: inline-block;\r\n  margin-left: 30px;\r\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <div><button class='btn btn-link' [routerLink]='[\"blog\"]'>Blog</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"potfolio\"]'>Potfolio</button></div>\n  |\n  <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"myself\"]'>About Me</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"contact\"]'>Contact</button></div> | <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"resume\"]'>Download\n      Resume</button></div>\n</div>\n"
+module.exports = "<div>\n  <div class='roll'>\n    <button class='btn btn-link' [routerLink]='[\"/blog\", \"myself\"]'>About Me</button>\n\n  </div>\n  | <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"potfolio\"]'>Potfolio</button></div>\n\n  | <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"contact\"]'>Contact</button></div> | <div><button class='btn btn-link'\n      [routerLink]='[\"/blog\", \"resume\"]'>Download\n      Resume</button></div>\n  |\n  <div><button class='btn btn-link' [routerLink]='[\"/blog\", \"blog\"]'>Blog</button></div>\n</div>\n"
 
 /***/ }),
 

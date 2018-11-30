@@ -1,3 +1,7 @@
 div {
   margin: 10px;
 }
+
+.btn {
+  font-weight: bolder;
+}

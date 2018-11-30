@@ -14,15 +14,19 @@ const routes: Routes = [
     children: [
       {
         path: '',
+        component: fromBlogs.MyselfComponent,
+      },
+      {
+        path: 'myself',
+        component: fromBlogs.MyselfComponent,
+      },
+      {
+        path: 'blog',
         component: fromBlogs.BlogComponent,
       },
       {
         path: 'potfolio',
         component: fromBlogs.PotfolioComponent,
-      },
-      {
-        path: 'myself',
-        component: fromBlogs.MyselfComponent,
       },
       {
         path: 'contact',
