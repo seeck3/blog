@@ -15,7 +15,7 @@ export class BlogComponent implements OnInit {
   ngOnInit() {
   }
   open(content) {
-    console.log('click click click');
+    console.log('click click click', content);
     this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
