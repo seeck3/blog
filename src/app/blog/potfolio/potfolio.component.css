@@ -4,10 +4,12 @@ li {
 
 .title {
   font-weight: bolder;
+  font-size: 7mm;
 }
 
 a {
   text-decoration: none;
+  font-size: 5mm;
 }
 
 a:hover {

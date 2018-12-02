@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "glyphicons";
 
+  src: url("./assets/fonts/glyphicons-halflings-regular.woff");
+}
 
 body {
   background: url('./assets/background/background02.jpg') no-repeat center center fixed;
