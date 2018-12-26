@@ -691,7 +691,7 @@ module.exports = "div {\r\n  margin: 10px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.b
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col\">\n    <div ngbDropdown class=\"d-inline-block\">\n      <button class=\"btn btn-outline-primary\" id=\"dropdownBasic1\" ngbDropdownToggle>Select type of Files</button>\n      <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n        <a href=\"../../../assets/Marco-Resume-03  (1).docx\"><button class=\"dropdown-item\">Marco Resume.doc</button></a>\n        <a href=\"../../../assets/Marco-Resume-03  (1).pdf\"><button class=\"dropdown-item\">Marco Resume.pdf</button></a>\n\n      </div>\n    </div>\n  </div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col\">\n    <div ngbDropdown class=\"d-inline-block\">\n      <button class=\"btn btn-outline-primary\" id=\"dropdownBasic1\" ngbDropdownToggle>Select type of Files</button>\n      <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n        <a href=\"../../../assets/Marco-Resume-03  (1).docx\"><button class=\"dropdown-item\">Marco Resume.doc</button></a>\n        <br>\n        <a href=\"../../../assets/Marco-Resume-03  (1).pdf\"><button class=\"dropdown-item\">Marco Resume.pdf</button></a>\n\n      </div>\n    </div>\n  </div>\n"
 
 /***/ }),
 
