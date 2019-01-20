@@ -381,7 +381,7 @@ module.exports = ".title {\r\n  font-weight: bolder;\r\n}\r\n\r\nh2 {\r\n  font-
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <br>\n  <h2>Marco DongChan Seo</h2>\n  <br>\n  <div>\n\n    <span class='title'>Phone</span><span> : 571-335-2177</span>\n  </div>\n  <br>\n  <div>\n\n    <span class='title'>Email</span><span> : <a href=\"mailto:marco.dseo@gmail.com\">marco.dseo@gmail.com</a></span>\n  </div>\n\n  <div>\n    <span class='title'>LinkedIn</span><span> : <a href=\"https://www.linkedin.com/in/dongchan-seo/\">Click to LinkedIn</a></span>\n  </div>\n  <div>\n    <span class='title'>GitHub</span><span> : <a href=\"https://github.com/seeck3\">Click to GitHub!!</a></span>\n  </div>\n\n</div>\n"
+module.exports = "<div>\n  <br>\n  <h2>Marco DongChan Seo</h2>\n  <br>\n  <div>\n\n    <span class='title'>Phone</span><span> : 571-335-2177</span>\n  </div>\n  <br>\n  <div>\n\n    <span class='title'>Email</span><span> : <a href=\"mailto:marco.dseo@gmail.com\">marco.dseo@gmail.com</a></span>\n  </div>\n  <br>\n  <div>\n    <span class='title'>LinkedIn</span><span> : <a href=\"https://www.linkedin.com/in/dongchan-seo/\" target=\"_blank\">Click\n        to LinkedIn</a></span>\n  </div>\n  <br>\n  <div>\n    <span class='title'>GitHub</span><span> : <a href=\"https://github.com/seeck3\" target=\"_blank\">Click to GitHub!!</a></span>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
