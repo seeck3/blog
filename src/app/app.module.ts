@@ -8,6 +8,8 @@ import * as fromBlog from './blog';
 import { NavComponent } from './nav/nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ResumeComponent } from './blog/resume/resume.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { ResumeComponent } from './blog/resume/resume.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule.forRoot(),
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

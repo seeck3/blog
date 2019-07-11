@@ -21,8 +21,8 @@ const routes: Routes = [
         component: fromBlogs.MyselfComponent,
       },
       {
-        path: 'blog',
-        component: fromBlogs.BlogComponent,
+        path: 'gallery',
+        component: fromBlogs.PhotoComponent,
       },
       {
         path: 'potfolio',
